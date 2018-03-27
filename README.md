@@ -1,0 +1,33 @@
+# IBM-MQ estadisticas
+es una sensilla aplicacion para extraer la siguiente informacion de un MQ:
+* Queue:
+* Profundidad de la queue
+* Numero de entradas abiertas
+* Fecha del último trasferencia
+* Hora del último trasferencia
+* Numero de salidas abiertas
+* Fecha de la último obtención
+* Hora de la último obtención
+
+## Compilar 
+```
+git clone https://github.com/acros78/ibmMq.git
+cd ibmMq
+mvn package
+```
+
+## Ejecutar
+```
+java -Djava.library.path=<paath> -jar mq.jar 
+```
+nota: las librias se en encuntran en el entorno del producto mq de ibm <path>/mqm/java/lib
+
+* lib = entorno de 32 bits
+* lib64 = entorno de 64 bis
+
+## Licencia
+
+Copyright © 2018 acros78
+
+Distributed under the Eclipse Public License either version 1.0 or (at
+your option) any later version.
