@@ -18,9 +18,9 @@ mvn package
 
 ## Ejecutar
 ```
-java -Djava.library.path=<paath> -jar mq.jar 
+java -Djava.library.path=<path> -jar mq.jar 
 ```
-nota: las librias se en encuntran en el entorno del producto mq de ibm <path>/mqm/java/lib
+nota: las librias se en encuntran en el entorno del producto mq de ibm `<path>/mqm/java/lib`
 
 * lib = entorno de 32 bits
 * lib64 = entorno de 64 bis
