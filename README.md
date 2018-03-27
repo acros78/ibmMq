@@ -18,7 +18,7 @@ mvn package
 
 ## Ejecutar
 ```
-java -Djava.library.path=<path> -jar mq.jar qMngrStr queueName hostName port channel user 
+java -Djava.library.path=<path> -jar ibmMq-0.0.1-SNAPSHOT.jar qMngrStr queueName hostName port channel user 
 ```
 nota: las librias se en encuntran en el entorno del producto mq de ibm `<path>/mqm/java/lib`,mas informacion en [IBM MQ](https://www.ibm.com/us-en/marketplace/secure-messaging)
 * lib = entorno de 32 bits
