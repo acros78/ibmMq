@@ -1,5 +1,5 @@
 # IBM-MQ estadisticas
-es una sensilla aplicacion para extraer la siguiente informacion de un MQ:
+Es una sencilla aplicación para extraer la siguiente información  de un MQ:
 * Queue:
 * Profundidad de la queue
 * Numero de entradas abiertas
