@@ -31,8 +31,8 @@ jobs:
           - v1-dependencies-
 
       - run: mvn dependency:go-offline
-      - run: mvn install:install-file -Dfile=lib/bcpkix-jdk15on-157.jar -DgroupId=com.ibm -DartifactId=com.ibm.bcpkix-jdk15on-157 -Dversion=9.0.4.0 -Dpackaging=jar
-      - run: mvn install:install-file -Dfile=lib/bcprov-jdk15on-157.jar -DgroupId=com.ibm -DartifactId=com.ibm.bcprov-jdk15on-157 -Dversion=9.0.4.0 -Dpackaging=jar
+      - run: mvn install:install-file -Dfile=lib/bcpkix-jdk15on-157.jar -DgroupId=com.ibm -DartifactId=bcpkix-jdk15on-157 -Dversion=9.0.4.0 -Dpackaging=jar
+      - run: mvn install:install-file -Dfile=lib/bcprov-jdk15on-157.jar -DgroupId=com.ibm -DartifactId=bcprov-jdk15on-157 -Dversion=9.0.4.0 -Dpackaging=jar
       - run: mvn install:install-file -Dfile=lib/com.ibm.mq.allclient.jar -DgroupId=com.ibm -DartifactId=com.ibm.mq.allclient.jar -Dversion=9.0.4.0 -Dpackaging=jar
       - run: mvn install:install-file -Dfile=lib/com.ibm.mq.axis2.jar -DgroupId=com.ibm -DartifactId=com.ibm.mq.axis2 -Dversion=9.0.4.0 -Dpackaging=jar
       - run: mvn install:install-file -Dfile=lib/com.ibm.mq.commonservices.jar -DgroupId=com.ibm -DartifactId=com.ibm.mq.commonservices -Dversion=9.0.4.0 -Dpackaging=jar
