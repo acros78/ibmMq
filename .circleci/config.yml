@@ -30,39 +30,41 @@ jobs:
           # fallback to using the latest cache if no exact match is found
           - v1-dependencies-
 
-      -run: mvn install:install-file -Dfile=lib/com.ibm.bcpkix-jdk15on-157.jar -DgroupId=com.ibm -DartifactId=com.ibm.bcpkix-jdk15on-157 -Dversion=9.0.4.0 -Dpackaging=jar
+	- run: mvn dependency:go-offline
 
-	-run: mvn install:install-file -Dfile=lib/com.ibm.bcprov-jdk15on-157.jar -DgroupId=com.ibm -DartifactId=com.ibm.bcprov-jdk15on-157 -Dversion=9.0.4.0 -Dpackaging=jar
+       - run: mvn install:install-file -Dfile=lib/com.ibm.bcpkix-jdk15on-157.jar -DgroupId=com.ibm -DartifactId=com.ibm.bcpkix-jdk15on-157 -Dversion=9.0.4.0 -Dpackaging=jar
 
-	-run: mvn install:install-file -Dfile=lib/com.ibm.mq.allclient.jar -DgroupId=com.ibm -DartifactId=com.ibm.mq.allclient.jar -Dversion=9.0.4.0 -Dpackaging=jar
+	- run: mvn install:install-file -Dfile=lib/com.ibm.bcprov-jdk15on-157.jar -DgroupId=com.ibm -DartifactId=com.ibm.bcprov-jdk15on-157 -Dversion=9.0.4.0 -Dpackaging=jar
 
-	-run: mvn install:install-file -Dfile=lib/com.ibm.mq.axis2.jar -DgroupId=com.ibm -DartifactId=com.ibm.mq.axis2 -Dversion=9.0.4.0 -Dpackaging=jar
+	- run: mvn install:install-file -Dfile=lib/com.ibm.mq.allclient.jar -DgroupId=com.ibm -DartifactId=com.ibm.mq.allclient.jar -Dversion=9.0.4.0 -Dpackaging=jar
 
-	-run: mvn install:install-file -Dfile=lib/com.ibm.mq.commonservices.jar -DgroupId=com.ibm -DartifactId=com.ibm.mq.commonservices -Dversion=9.0.4.0 -Dpackaging=jar
+	- run: mvn install:install-file -Dfile=lib/com.ibm.mq.axis2.jar -DgroupId=com.ibm -DartifactId=com.ibm.mq.axis2 -Dversion=9.0.4.0 -Dpackaging=jar
 
-	-run: mvn install:install-file -Dfile=lib/com.ibm.mq.defaultconfig.jar -DgroupId=com.ibm -DartifactId=com.ibm.mq.defaultconfig -Dversion=9.0.4.0 -Dpackaging=jar
+	- run: mvn install:install-file -Dfile=lib/com.ibm.mq.commonservices.jar -DgroupId=com.ibm -DartifactId=com.ibm.mq.commonservices -Dversion=9.0.4.0 -Dpackaging=jar
 
-	-run: mvn install:install-file -Dfile=lib/com.ibm.mq.headers.jar -DgroupId=com.ibm -DartifactId=com.ibm.mq.headers -Dversion=9.0.4.0 -Dpackaging=jar
+	- run: mvn install:install-file -Dfile=lib/com.ibm.mq.defaultconfig.jar -DgroupId=com.ibm -DartifactId=com.ibm.mq.defaultconfig -Dversion=9.0.4.0 -Dpackaging=jar
 
-	-run: mvn install:install-file -Dfile=lib/com.ibm.mq.jmqi.jar -DgroupId=com.ibm -DartifactId=com.ibm.mq.jmqi -Dversion=9.0.4.0 -Dpackaging=jar
+	- run: mvn install:install-file -Dfile=lib/com.ibm.mq.headers.jar -DgroupId=com.ibm -DartifactId=com.ibm.mq.headers -Dversion=9.0.4.0 -Dpackaging=jar
 
-	-run: mvn install:install-file -Dfile=lib/com.ibm.mq.jms.Nojndi.jar -DgroupId=com.ibm -DartifactId=com.ibm.mq.jms.Nojndi -Dversion=9.0.4.0 -Dpackaging=jar
+	- run: mvn install:install-file -Dfile=lib/com.ibm.mq.jmqi.jar -DgroupId=com.ibm -DartifactId=com.ibm.mq.jmqi -Dversion=9.0.4.0 -Dpackaging=jar
 
-	-run: mvn install:install-file -Dfile=lib/com.ibm.mq.pcf.jar -DgroupId=com.ibm -DartifactId=com.ibm.mq.pcf -Dversion=9.0.4.0 -Dpackaging=jar
+	- run: mvn install:install-file -Dfile=lib/com.ibm.mq.jms.Nojndi.jar -DgroupId=com.ibm -DartifactId=com.ibm.mq.jms.Nojndi -Dversion=9.0.4.0 -Dpackaging=jar
 
-	-run: mvn install:install-file -Dfile=lib/com.ibm.mq.soap.jar -DgroupId=com.ibm -DartifactId=com.ibm.mq.soap -Dversion=9.0.4.0 -Dpackaging=jar
+	- run: mvn install:install-file -Dfile=lib/com.ibm.mq.pcf.jar -DgroupId=com.ibm -DartifactId=com.ibm.mq.pcf -Dversion=9.0.4.0 -Dpackaging=jar
 
-	-run: mvn install:install-file -Dfile=lib/com.ibm.mq.tools.ras.jar -DgroupId=com.ibm -DartifactId=com.ibm.mq.tools.ras -Dversion=9.0.4.0 -Dpackaging=jar
+	- run: mvn install:install-file -Dfile=lib/com.ibm.mq.soap.jar -DgroupId=com.ibm -DartifactId=com.ibm.mq.soap -Dversion=9.0.4.0 -Dpackaging=jar
 
-	-run: mvn install:install-file -Dfile=lib/com.ibm.mq.traceControl.jar -DgroupId=com.ibm -DartifactId=com.ibm.mq.traceControl -Dversion=9.0.4.0 -Dpackaging=jar
+	- run: mvn install:install-file -Dfile=lib/com.ibm.mq.tools.ras.jar -DgroupId=com.ibm -DartifactId=com.ibm.mq.tools.ras -Dversion=9.0.4.0 -Dpackaging=jar
 
-	-run: mvn install:install-file -Dfile=lib/com.ibm.mqjms.jar -DgroupId=com.ibm -DartifactId=com.ibm.mqjms -Dversion=9.0.4.0 -Dpackaging=jar
+	- run: mvn install:install-file -Dfile=lib/com.ibm.mq.traceControl.jar -DgroupId=com.ibm -DartifactId=com.ibm.mq.traceControl -Dversion=9.0.4.0 -Dpackaging=jar
 
-	-run: mvn install:install-file -Dfile=lib/fscontext.jar -DgroupId=com.ibm -DartifactId=fscontext -Dversion=9.0.4.0 -Dpackaging=jar
+	- run: mvn install:install-file -Dfile=lib/com.ibm.mqjms.jar -DgroupId=com.ibm -DartifactId=com.ibm.mqjms -Dversion=9.0.4.0 -Dpackaging=jar
 
-	-run: mvn install:install-file -Dfile=lib/jms.jar -DgroupId=com.ibm -DartifactId=jms -Dversion=9.0.4.0 -Dpackaging=jar
+	- run: mvn install:install-file -Dfile=lib/fscontext.jar -DgroupId=com.ibm -DartifactId=fscontext -Dversion=9.0.4.0 -Dpackaging=jar
 
-	-run: mvn install:install-file -Dfile=lib/providerutil.jar -DgroupId=com.ibm -DartifactId=providerutil -Dversion=9.0.4.0 -Dpackaging=jar
+	- run: mvn install:install-file -Dfile=lib/jms.jar -DgroupId=com.ibm -DartifactId=jms -Dversion=9.0.4.0 -Dpackaging=jar
+
+	- run: mvn install:install-file -Dfile=lib/providerutil.jar -DgroupId=com.ibm -DartifactId=providerutil -Dversion=9.0.4.0 -Dpackaging=jar
 
       - save_cache:
           paths:
