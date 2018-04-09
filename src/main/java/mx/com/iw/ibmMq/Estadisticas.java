@@ -4,7 +4,6 @@ import java.io.IOException;
 
 import com.ibm.mq.MQEnvironment;
 import com.ibm.mq.MQException;
-import com.ibm.mq.MQQueue;
 import com.ibm.mq.MQQueueManager;
 import com.ibm.mq.constants.CMQCFC;
 import com.ibm.mq.headers.CMQC;
@@ -15,6 +14,7 @@ import com.ibm.mq.pcf.PCFMessageAgent;
 
 
 
+@SuppressWarnings("deprecation")
 public class Estadisticas {
 	private static final String qMngrStr = "Q1Q";
 	private static final String user = "fvalencia";

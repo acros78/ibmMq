@@ -18,7 +18,7 @@
   <dependency>
     <groupId>com.ibm.bcpkix-jdk15on-157</groupId>
     <artifactId>ibm</artifactId>
-    <version>7.0</version>
+    <version>9.0</version>
      <scope>system</scope>
     <systemPath>${basedir}/lib/bcpkix-jdk15on-157.jar</systemPath>
   </dependency>
@@ -26,7 +26,7 @@
   <dependency>
     <groupId>com.ibm.bcprov-jdk15on-157</groupId>
     <artifactId>ibm</artifactId>
-    <version>7.0</version>
+    <version>9.0</version>
      <scope>system</scope>
     <systemPath>${basedir}/lib/bcprov-jdk15on-157.jar</systemPath>
   </dependency>
@@ -34,7 +34,7 @@
     <dependency>
     <groupId>com.ibm.mq.allclient</groupId>
     <artifactId>ibm</artifactId>
-    <version>7.0</version>
+    <version>9.0</version>
      <scope>system</scope>
     <systemPath>${basedir}/lib/com.ibm.mq.allclient.jar</systemPath>
   </dependency>
@@ -42,7 +42,7 @@
     <dependency>
     <groupId>com.ibm.mq.axis2</groupId>
     <artifactId>ibm</artifactId>
-    <version>7.0</version>
+    <version>9.0</version>
      <scope>system</scope>
     <systemPath>${basedir}/lib/com.ibm.mq.axis2.jar</systemPath>
   </dependency>
@@ -50,7 +50,7 @@
   <dependency>
     <groupId>com.ibm.mq.commonservices</groupId>
     <artifactId>ibm</artifactId>
-    <version>7.0</version>
+    <version>9.0</version>
      <scope>system</scope>
     <systemPath>${basedir}/lib/com.ibm.mq.commonservices.jar</systemPath>
   </dependency>
@@ -58,7 +58,7 @@
    <dependency>
     <groupId>com.ibm.mq.defaultconfig</groupId>
     <artifactId>ibm</artifactId>
-    <version>7.0</version>
+    <version>9.0</version>
      <scope>system</scope>
     <systemPath>${basedir}/lib/com.ibm.mq.defaultconfig.jar</systemPath>
   </dependency>
@@ -67,7 +67,7 @@
  <dependency>
     <groupId>com.ibm.mq.headers</groupId>
     <artifactId>ibm</artifactId>
-    <version>7.0</version>
+    <version>9.0</version>
      <scope>system</scope>
     <systemPath>${basedir}/lib/com.ibm.mq.headers.jar</systemPath>
   </dependency>
@@ -75,7 +75,7 @@
  <dependency>
     <groupId>com.ibm.mq</groupId>
     <artifactId>ibm</artifactId>
-    <version>7.0</version>
+    <version>9.0</version>
      <scope>system</scope>
     <systemPath>${basedir}/lib/com.ibm.mq.jar</systemPath>
   </dependency>
@@ -83,7 +83,7 @@
  <dependency>
     <groupId>com.ibm.mq.jmqi</groupId>
     <artifactId>ibm</artifactId>
-    <version>7.0</version>
+    <version>9.0</version>
      <scope>system</scope>
     <systemPath>${basedir}/lib/com.ibm.mq.jmqi.jar</systemPath>
   </dependency>
@@ -91,7 +91,7 @@
  <dependency>
     <groupId>com.ibm.mq.jms.Nojndi</groupId>
     <artifactId>ibm</artifactId>
-    <version>7.0</version>
+    <version>9.0</version>
      <scope>system</scope>
     <systemPath>${basedir}/lib/com.ibm.mq.jms.Nojndi.jar</systemPath>
   </dependency>
@@ -99,7 +99,7 @@
  <dependency>
     <groupId>com.ibm.mq.pcf</groupId>
     <artifactId>ibm</artifactId>
-    <version>7.0</version>
+    <version>9.0</version>
      <scope>system</scope>
     <systemPath>${basedir}/lib/com.ibm.mq.pcf.jar</systemPath>
   </dependency>
@@ -107,7 +107,7 @@
 <dependency>
     <groupId>com.ibm.mq.postcard</groupId>
     <artifactId>ibm</artifactId>
-    <version>7.0</version>
+    <version>9.0</version>
      <scope>system</scope>
     <systemPath>${basedir}/lib/com.ibm.mq.postcard.jar</systemPath>
   </dependency>
@@ -115,7 +115,7 @@
 <dependency>
     <groupId>com.ibm.mq.soap</groupId>
     <artifactId>ibm</artifactId>
-    <version>7.0</version>
+    <version>9.0</version>
      <scope>system</scope>
     <systemPath>${basedir}/lib/com.ibm.mq.soap.jar</systemPath>
   </dependency>
@@ -123,7 +123,7 @@
 <dependency>
     <groupId>com.ibm.mq.tools.ras</groupId>
     <artifactId>ibm</artifactId>
-    <version>7.0</version>
+    <version>9.0</version>
      <scope>system</scope>
     <systemPath>${basedir}/lib/com.ibm.mq.tools.ras.jar</systemPath>
   </dependency>
@@ -131,7 +131,7 @@
 <dependency>
     <groupId>com.ibm.mq.traceControl</groupId>
     <artifactId>ibm</artifactId>
-    <version>7.0</version>
+    <version>9.0</version>
      <scope>system</scope>
     <systemPath>${basedir}/lib/com.ibm.mq.traceControl.jar</systemPath>
   </dependency>
@@ -139,7 +139,7 @@
 <dependency>
     <groupId>com.ibm.mqjms</groupId>
     <artifactId>ibm</artifactId>
-    <version>7.0</version>
+    <version>9.0</version>
      <scope>system</scope>
     <systemPath>${basedir}/lib/com.ibm.mqjms.jar</systemPath>
   </dependency>
@@ -147,7 +147,7 @@
 <dependency>
     <groupId>fscontext</groupId>
     <artifactId>ibm</artifactId>
-    <version>7.0</version>
+    <version>9.0</version>
      <scope>system</scope>
     <systemPath>${basedir}/lib/fscontext.jar</systemPath>
   </dependency>
@@ -155,7 +155,7 @@
 <dependency>
     <groupId>jms</groupId>
     <artifactId>ibm</artifactId>
-    <version>7.0</version>
+    <version>9.0</version>
      <scope>system</scope>
     <systemPath>${basedir}/lib/jms.jar</systemPath>
   </dependency>
@@ -164,7 +164,7 @@
 <dependency>
     <groupId>providerutil</groupId>
     <artifactId>ibm</artifactId>
-    <version>7.0</version>
+    <version>9.0</version>
      <scope>system</scope>
     <systemPath>${basedir}/lib/providerutil.jar</systemPath>
   </dependency>
